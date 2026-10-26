@@ -1,0 +1,71 @@
+{
+  "probability_checks": [
+    {
+      "m": 0,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.02,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.025,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.03,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.04,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.08,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.18,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 0.5,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    },
+    {
+      "m": 1,
+      "total": true,
+      "marginal": true,
+      "covariance": true,
+      "all_missing": true
+    }
+  ],
+  "sign_grid_cases": 162,
+  "minimum_delta": 0.0,
+  "all_pass": true,
+  "interpretation": "Finite enumeration verifies the stated identities at selected parameters; algebra in the manuscript supplies their general derivation. No simulated observations are produced."
+}

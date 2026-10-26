@@ -1,0 +1,228 @@
+{
+  "GeneratorVersion": "wave02-synthetic-stand-v1",
+  "MasterSeed": 20260616,
+  "UnitsPerScenario": 30,
+  "StepsPerUnit": 300,
+  "ReplacementThreshold": 0.85,
+  "DangerousWearThreshold": 0.85,
+  "Scenarios": [
+    {
+      "ScenarioId": "normal_wear",
+      "DisplayName": "Normal wear",
+      "WearRateMultiplier": 1,
+      "ShockProbability": 0.003,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.01,
+      "MissingnessRate": 0.02,
+      "SignalDegradationRate": 0.02,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "accelerated_wear",
+      "DisplayName": "Accelerated wear",
+      "WearRateMultiplier": 1.65,
+      "ShockProbability": 0.006,
+      "ShockIncrement": 0.06,
+      "FalseAlarmProbability": 0.015,
+      "MissingnessRate": 0.025,
+      "SignalDegradationRate": 0.03,
+      "OperatingLoadMultiplier": 1.2,
+      "RockAbrasivityMultiplier": 1.35,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "chipping_shock_event",
+      "DisplayName": "Chipping / shock event",
+      "WearRateMultiplier": 1.15,
+      "ShockProbability": 0.035,
+      "ShockIncrement": 0.12,
+      "FalseAlarmProbability": 0.015,
+      "MissingnessRate": 0.025,
+      "SignalDegradationRate": 0.03,
+      "OperatingLoadMultiplier": 1.1,
+      "RockAbrasivityMultiplier": 1.15,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "false_alarm",
+      "DisplayName": "False alarm",
+      "WearRateMultiplier": 0.95,
+      "ShockProbability": 0.004,
+      "ShockIncrement": 0.045,
+      "FalseAlarmProbability": 0.09,
+      "MissingnessRate": 0.02,
+      "SignalDegradationRate": 0.025,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "signal_degradation",
+      "DisplayName": "Signal degradation",
+      "WearRateMultiplier": 1.05,
+      "ShockProbability": 0.005,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.025,
+      "MissingnessRate": 0.08,
+      "SignalDegradationRate": 0.35,
+      "OperatingLoadMultiplier": 1.05,
+      "RockAbrasivityMultiplier": 1.1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "mixed_regime",
+      "DisplayName": "Mixed regime",
+      "WearRateMultiplier": 1.25,
+      "ShockProbability": 0.012,
+      "ShockIncrement": 0.09,
+      "FalseAlarmProbability": 0.03,
+      "MissingnessRate": 0.04,
+      "SignalDegradationRate": 0.08,
+      "OperatingLoadMultiplier": 1.15,
+      "RockAbrasivityMultiplier": 1.25,
+      "MixedRegime": true
+    },
+    {
+      "ScenarioId": "missing_data",
+      "DisplayName": "Missing data",
+      "WearRateMultiplier": 1.05,
+      "ShockProbability": 0.006,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.02,
+      "MissingnessRate": 0.18,
+      "SignalDegradationRate": 0.08,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1.05,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "replacement_reset",
+      "DisplayName": "Replacement / reset",
+      "WearRateMultiplier": 1.35,
+      "ShockProbability": 0.01,
+      "ShockIncrement": 0.07,
+      "FalseAlarmProbability": 0.02,
+      "MissingnessRate": 0.03,
+      "SignalDegradationRate": 0.05,
+      "OperatingLoadMultiplier": 1.1,
+      "RockAbrasivityMultiplier": 1.15,
+      "PlannedResetStep": 190,
+      "MixedRegime": false
+    }
+  ],
+  "SensorChannels": [
+    {
+      "ChannelId": "vibration",
+      "FeatureName": "vibration_rms",
+      "BaseLevel": 0.35,
+      "WearSensitivity": 1.3,
+      "DamageSensitivity": 0.7,
+      "LoadSensitivity": 0.25,
+      "NoiseScale": 0.06
+    },
+    {
+      "ChannelId": "acoustic_emission",
+      "FeatureName": "ae_rms",
+      "BaseLevel": 0.28,
+      "WearSensitivity": 1.1,
+      "DamageSensitivity": 1.1,
+      "LoadSensitivity": 0.2,
+      "NoiseScale": 0.07
+    },
+    {
+      "ChannelId": "current_power",
+      "FeatureName": "power_proxy",
+      "BaseLevel": 0.45,
+      "WearSensitivity": 0.85,
+      "DamageSensitivity": 0.35,
+      "LoadSensitivity": 0.4,
+      "NoiseScale": 0.05
+    },
+    {
+      "ChannelId": "force_torque",
+      "FeatureName": "force_torque_proxy",
+      "BaseLevel": 0.42,
+      "WearSensitivity": 0.95,
+      "DamageSensitivity": 0.45,
+      "LoadSensitivity": 0.55,
+      "NoiseScale": 0.055
+    },
+    {
+      "ChannelId": "temperature",
+      "FeatureName": "temperature_proxy",
+      "BaseLevel": 0.3,
+      "WearSensitivity": 0.55,
+      "DamageSensitivity": 0.25,
+      "LoadSensitivity": 0.6,
+      "NoiseScale": 0.045
+    },
+    {
+      "ChannelId": "image_geometric_wear",
+      "FeatureName": "geometric_wear_proxy",
+      "BaseLevel": 0.05,
+      "WearSensitivity": 1,
+      "DamageSensitivity": 0.3,
+      "LoadSensitivity": 0.05,
+      "NoiseScale": 0.035
+    }
+  ],
+  "Policies": [
+    {
+      "PolicyId": "periodic_replacement",
+      "PolicyFamily": "periodic replacement",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.82,
+      "UncertaintyThreshold": 0.12,
+      "RiskThreshold": 0.7,
+      "HorizonSteps": 80
+    },
+    {
+      "PolicyId": "observed_threshold",
+      "PolicyFamily": "observed-threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.78,
+      "UncertaintyThreshold": 0.12,
+      "RiskThreshold": 0.7,
+      "HorizonSteps": 80
+    },
+    {
+      "PolicyId": "latent_state_threshold",
+      "PolicyFamily": "latent-state threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.8,
+      "UncertaintyThreshold": 0.1,
+      "RiskThreshold": 0.68,
+      "HorizonSteps": 90
+    },
+    {
+      "PolicyId": "uncertainty_aware_threshold",
+      "PolicyFamily": "uncertainty-aware threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.78,
+      "UncertaintyThreshold": 0.16,
+      "RiskThreshold": 0.62,
+      "HorizonSteps": 100
+    },
+    {
+      "PolicyId": "risk_aware_horizon",
+      "PolicyFamily": "risk-aware horizon policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.76,
+      "UncertaintyThreshold": 0.14,
+      "RiskThreshold": 0.58,
+      "HorizonSteps": 120
+    }
+  ],
+  "Metrics": {
+    "BootstrapSeed": 20260617,
+    "PredictionIntervalLevel": 0.9,
+    "FalseAlarmWearThreshold": 0.65,
+    "DangerousWearThreshold": 0.85,
+    "PlannedReplacementCost": 5,
+    "EmergencyReplacementCost": 18,
+    "InspectionCost": 1,
+    "DangerousExposureCost": 0.08
+  }
+}

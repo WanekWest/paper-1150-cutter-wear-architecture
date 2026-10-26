@@ -1,0 +1,14 @@
+{
+  "GeneratorVersion": "wave02-synthetic-stand-v1",
+  "MasterSeed": 20260616,
+  "Metrics": {
+    "BootstrapSeed": 20260617,
+    "PredictionIntervalLevel": 0.9,
+    "FalseAlarmWearThreshold": 0.65,
+    "DangerousWearThreshold": 0.85,
+    "PlannedReplacementCost": 5,
+    "EmergencyReplacementCost": 18,
+    "InspectionCost": 1,
+    "DangerousExposureCost": 0.08
+  }
+}

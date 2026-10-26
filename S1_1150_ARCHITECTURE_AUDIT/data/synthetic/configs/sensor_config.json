@@ -1,0 +1,60 @@
+{
+  "GeneratorVersion": "wave02-synthetic-stand-v1",
+  "MasterSeed": 20260616,
+  "SensorChannels": [
+    {
+      "ChannelId": "vibration",
+      "FeatureName": "vibration_rms",
+      "BaseLevel": 0.35,
+      "WearSensitivity": 1.3,
+      "DamageSensitivity": 0.7,
+      "LoadSensitivity": 0.25,
+      "NoiseScale": 0.06
+    },
+    {
+      "ChannelId": "acoustic_emission",
+      "FeatureName": "ae_rms",
+      "BaseLevel": 0.28,
+      "WearSensitivity": 1.1,
+      "DamageSensitivity": 1.1,
+      "LoadSensitivity": 0.2,
+      "NoiseScale": 0.07
+    },
+    {
+      "ChannelId": "current_power",
+      "FeatureName": "power_proxy",
+      "BaseLevel": 0.45,
+      "WearSensitivity": 0.85,
+      "DamageSensitivity": 0.35,
+      "LoadSensitivity": 0.4,
+      "NoiseScale": 0.05
+    },
+    {
+      "ChannelId": "force_torque",
+      "FeatureName": "force_torque_proxy",
+      "BaseLevel": 0.42,
+      "WearSensitivity": 0.95,
+      "DamageSensitivity": 0.45,
+      "LoadSensitivity": 0.55,
+      "NoiseScale": 0.055
+    },
+    {
+      "ChannelId": "temperature",
+      "FeatureName": "temperature_proxy",
+      "BaseLevel": 0.3,
+      "WearSensitivity": 0.55,
+      "DamageSensitivity": 0.25,
+      "LoadSensitivity": 0.6,
+      "NoiseScale": 0.045
+    },
+    {
+      "ChannelId": "image_geometric_wear",
+      "FeatureName": "geometric_wear_proxy",
+      "BaseLevel": 0.05,
+      "WearSensitivity": 1,
+      "DamageSensitivity": 0.3,
+      "LoadSensitivity": 0.05,
+      "NoiseScale": 0.035
+    }
+  ]
+}

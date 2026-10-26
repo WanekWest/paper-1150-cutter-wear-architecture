@@ -1,0 +1,111 @@
+{
+  "GeneratorVersion": "wave02-synthetic-stand-v1",
+  "MasterSeed": 20260616,
+  "Scenarios": [
+    {
+      "ScenarioId": "normal_wear",
+      "DisplayName": "Normal wear",
+      "WearRateMultiplier": 1,
+      "ShockProbability": 0.003,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.01,
+      "MissingnessRate": 0.02,
+      "SignalDegradationRate": 0.02,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "accelerated_wear",
+      "DisplayName": "Accelerated wear",
+      "WearRateMultiplier": 1.65,
+      "ShockProbability": 0.006,
+      "ShockIncrement": 0.06,
+      "FalseAlarmProbability": 0.015,
+      "MissingnessRate": 0.025,
+      "SignalDegradationRate": 0.03,
+      "OperatingLoadMultiplier": 1.2,
+      "RockAbrasivityMultiplier": 1.35,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "chipping_shock_event",
+      "DisplayName": "Chipping / shock event",
+      "WearRateMultiplier": 1.15,
+      "ShockProbability": 0.035,
+      "ShockIncrement": 0.12,
+      "FalseAlarmProbability": 0.015,
+      "MissingnessRate": 0.025,
+      "SignalDegradationRate": 0.03,
+      "OperatingLoadMultiplier": 1.1,
+      "RockAbrasivityMultiplier": 1.15,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "false_alarm",
+      "DisplayName": "False alarm",
+      "WearRateMultiplier": 0.95,
+      "ShockProbability": 0.004,
+      "ShockIncrement": 0.045,
+      "FalseAlarmProbability": 0.09,
+      "MissingnessRate": 0.02,
+      "SignalDegradationRate": 0.025,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "signal_degradation",
+      "DisplayName": "Signal degradation",
+      "WearRateMultiplier": 1.05,
+      "ShockProbability": 0.005,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.025,
+      "MissingnessRate": 0.08,
+      "SignalDegradationRate": 0.35,
+      "OperatingLoadMultiplier": 1.05,
+      "RockAbrasivityMultiplier": 1.1,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "mixed_regime",
+      "DisplayName": "Mixed regime",
+      "WearRateMultiplier": 1.25,
+      "ShockProbability": 0.012,
+      "ShockIncrement": 0.09,
+      "FalseAlarmProbability": 0.03,
+      "MissingnessRate": 0.04,
+      "SignalDegradationRate": 0.08,
+      "OperatingLoadMultiplier": 1.15,
+      "RockAbrasivityMultiplier": 1.25,
+      "MixedRegime": true
+    },
+    {
+      "ScenarioId": "missing_data",
+      "DisplayName": "Missing data",
+      "WearRateMultiplier": 1.05,
+      "ShockProbability": 0.006,
+      "ShockIncrement": 0.05,
+      "FalseAlarmProbability": 0.02,
+      "MissingnessRate": 0.18,
+      "SignalDegradationRate": 0.08,
+      "OperatingLoadMultiplier": 1,
+      "RockAbrasivityMultiplier": 1.05,
+      "MixedRegime": false
+    },
+    {
+      "ScenarioId": "replacement_reset",
+      "DisplayName": "Replacement / reset",
+      "WearRateMultiplier": 1.35,
+      "ShockProbability": 0.01,
+      "ShockIncrement": 0.07,
+      "FalseAlarmProbability": 0.02,
+      "MissingnessRate": 0.03,
+      "SignalDegradationRate": 0.05,
+      "OperatingLoadMultiplier": 1.1,
+      "RockAbrasivityMultiplier": 1.15,
+      "PlannedResetStep": 190,
+      "MixedRegime": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "paper": "1150",
+  "title": "Separating observation quality and evidence provenance in cutter-wear monitoring: a reproducible architecture audit",
+  "authors": [
+    "Ivan V. Brovchenko",
+    "Evgeny B. Mazakov",
+    "Maria R. Kiba"
+  ],
+  "repository_url": "https://github.com/WanekWest/paper-1150-cutter-wear-architecture",
+  "release_tag": "1150-2026-10-21-audit1",
+  "release_url": "https://github.com/WanekWest/paper-1150-cutter-wear-architecture/releases/tag/1150-2026-10-21-audit1",
+  "asset": "1150_S1_DATA_CODE_2026-10-21.zip",
+  "asset_bytes": 20666029,
+  "asset_sha256": "f4ee815c12cfd3c1ed6c73eeec856a5cc4d1e7b415e19f5d80b8bbf0f431ca77",
+  "frozen_manifest_files_verified": 51,
+  "publication_status": "Manuscript preparation; journal acceptance is not claimed",
+  "doi": null,
+  "rights": "Original rights preserved; no new code or data licence granted by this packaging operation."
+}

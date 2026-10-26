@@ -1,0 +1,9 @@
+scenario,availability_matches_archived_traceability_metric,quality_matches_archived_quality,absolute_availability_error,absolute_quality_error
+normal_wear,True,True,1.1102230246251565e-16,1.1102230246251565e-16
+accelerated_wear,True,True,1.1102230246251565e-16,0.0
+chipping_shock_event,True,True,0.0,0.0
+false_alarm,True,True,0.0,1.1102230246251565e-16
+signal_degradation,True,True,1.1102230246251565e-16,0.0
+mixed_regime,True,True,1.1102230246251565e-16,1.1102230246251565e-16
+missing_data,True,True,1.1102230246251565e-16,1.1102230246251565e-16
+replacement_reset,True,True,0.0,1.1102230246251565e-16

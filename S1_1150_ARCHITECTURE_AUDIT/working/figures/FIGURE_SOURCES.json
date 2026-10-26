@@ -1,0 +1,26 @@
+{
+  "1": {
+    "source": "manuscript_content.py evidence contract and audit_retained_data.py implemented predicates",
+    "type": "conceptual diagram"
+  },
+  "2": {
+    "source": "qa/scientific_audit/scenario_accounting.csv",
+    "columns": [
+      "channel_availability",
+      "mean_quality_including_missing"
+    ]
+  },
+  "3": {
+    "source": "qa/scientific_audit/scenario_accounting.csv",
+    "scenario_numbers": {
+      "1": "Normal",
+      "2": "Accelerated",
+      "3": "Chipping",
+      "4": "False alarm",
+      "5": "Degradation",
+      "6": "Mixed",
+      "7": "Missing data",
+      "8": "Replacement"
+    }
+  }
+}

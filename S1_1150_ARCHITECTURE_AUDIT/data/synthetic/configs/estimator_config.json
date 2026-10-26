@@ -1,0 +1,27 @@
+{
+  "MovingAverageWindow": 5,
+  "EwmaAlpha": 0.35,
+  "KalmanProcessNoise": 0.00045,
+  "KalmanObservationNoise": 0.04,
+  "EkfProcessNoise": 0.00055,
+  "EkfObservationNoise": 0.045,
+  "UkfAlpha": 0.35,
+  "UkfBeta": 2,
+  "UkfKappa": 0,
+  "ParticleCount": 128,
+  "ParticleProcessNoise": 0.0045,
+  "ParticleObservationNoise": 0.05,
+  "ParticleResamplingThreshold": 0.55,
+  "AlarmThreshold": 0.6,
+  "RulThreshold": 0.85,
+  "Estimators": [
+    "PersistenceBaseline",
+    "MovingAverage",
+    "Ewma",
+    "LinearTrend",
+    "KalmanFilter",
+    "ExtendedKalmanFilter",
+    "UnscentedKalmanFilter",
+    "ParticleFilter"
+  ]
+}

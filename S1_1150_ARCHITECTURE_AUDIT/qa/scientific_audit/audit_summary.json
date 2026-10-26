@@ -1,0 +1,25 @@
+{
+  "scope": "Deterministic reanalysis of retained records; no new synthetic generation, model fit or LockedTest/T6 access.",
+  "latent_epochs": 72000,
+  "component_units": 240,
+  "observation_records": 432000,
+  "event_records": 72000,
+  "scenarios": 8,
+  "channels": 6,
+  "unique_config_hashes": [
+    "c48b58abec258fc1a8ec3a085030366cdf7779bcdb7456c2e0bd9eca8d0ab060"
+  ],
+  "structural_errors": {},
+  "source_checks": {
+    "two_stage_missingness": true,
+    "quality_is_zero_when_missing": true,
+    "availability_named_traceability": true,
+    "latent_wear_used_in_observed_proxy": true,
+    "six_channel_generation_not_deployable_sensor_fit": true
+  },
+  "quality_ablation_negative_deltas": 30,
+  "quality_ablation_records": 30,
+  "quality_layer_sign_boundary": "Under frozen features/events/uncertainty, removing a nonnegative -gamma(1-Q) penalty cannot lower a sigmoid score. Archived negative deltas do not verify this conditional comparison.",
+  "extension_limit": "Retained numeric summaries can be aggregated, but the original extension generator and row-level predictions/covariances are not established by these six summary files.",
+  "kpi_reconciliation_all": true
+}

@@ -1,0 +1,51 @@
+{
+  "GeneratorVersion": "wave02-synthetic-stand-v1",
+  "MasterSeed": 20260616,
+  "Policies": [
+    {
+      "PolicyId": "periodic_replacement",
+      "PolicyFamily": "periodic replacement",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.82,
+      "UncertaintyThreshold": 0.12,
+      "RiskThreshold": 0.7,
+      "HorizonSteps": 80
+    },
+    {
+      "PolicyId": "observed_threshold",
+      "PolicyFamily": "observed-threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.78,
+      "UncertaintyThreshold": 0.12,
+      "RiskThreshold": 0.7,
+      "HorizonSteps": 80
+    },
+    {
+      "PolicyId": "latent_state_threshold",
+      "PolicyFamily": "latent-state threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.8,
+      "UncertaintyThreshold": 0.1,
+      "RiskThreshold": 0.68,
+      "HorizonSteps": 90
+    },
+    {
+      "PolicyId": "uncertainty_aware_threshold",
+      "PolicyFamily": "uncertainty-aware threshold policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.78,
+      "UncertaintyThreshold": 0.16,
+      "RiskThreshold": 0.62,
+      "HorizonSteps": 100
+    },
+    {
+      "PolicyId": "risk_aware_horizon",
+      "PolicyFamily": "risk-aware horizon policy",
+      "ReplacementIntervalSteps": 240,
+      "WearThreshold": 0.76,
+      "UncertaintyThreshold": 0.14,
+      "RiskThreshold": 0.58,
+      "HorizonSteps": 120
+    }
+  ]
+}
